@@ -10,9 +10,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  meta: ^1.7.0
+  rxdart: ^0.27.5
+  shared_preferences: ^2.0.15
+  todos_api:
+    path: ../todos_api
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   mocktail: ^1.0.0
-  very_good_analysis: ^5.1.0

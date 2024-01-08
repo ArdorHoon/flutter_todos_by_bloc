@@ -22,14 +22,8 @@ class Todo extends Equatable {
   ),
         id = id ?? const Uuid().v4();
 
-  /// The unique identifier of the `todo`.
-  ///
-  /// Cannot be empty.
-  final String id;
 
-  /// The title of the `todo`.
-  ///
-  /// Note that the title may be empty.
+  final String id;
   final String title;
 
   /// The description of the `todo`.
